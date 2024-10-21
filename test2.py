@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # 載入已知人臉的編碼
-known_image = face_recognition.load_image_file("examples/me.jpg")
+known_image = face_recognition.load_image_file("images\me.jpg")
 known_encoding = face_recognition.face_encodings(known_image)[0]
 
 # 初始化相機
